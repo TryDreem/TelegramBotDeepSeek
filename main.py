@@ -84,7 +84,7 @@ async def handle_message(message: Message):
 
     async def waiting_message():
         await asyncio.sleep(60)
-        await message.answer("⏳ Пожалуйста, подождите, я все еще думаю...")
+        await message.answer("⏳ Пожалуйста, подождите, я все ещё думаю...")
 
     waiting_task = asyncio.create_task(waiting_message())
 
