@@ -1,30 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ecaff5b-c77a-4f94-b6e0-17fe46d10676" name="Changes" comment="" />
+    <list default="true" id="1ecaff5b-c77a-4f94-b6e0-17fe46d10676" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PassGenerator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PassGenerator/.idea/PassGenerator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PassGenerator/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PassGenerator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PassGenerator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PassGenerator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PassGenerator/for tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PassGenerator/pass_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Simulator Beta/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Case Simulator Beta/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PriceCheckerTB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PriceCheckerTB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2sinb3vnUrHWTv781SsVfK7naoe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.deepseek.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Python/Programing/my_projects/pythonProject/DeepSeekTGBot&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
