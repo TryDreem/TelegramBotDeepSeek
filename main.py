@@ -7,23 +7,19 @@ from aiogram.filters import Command
 from dotenv import load_dotenv
 import os
 
-# Загружаем переменные из .env файла
 load_dotenv()
 
-# Читаем ключи из .env файла
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 API_KEY = os.getenv("API_KEY")
 MODEL = os.getenv("MODEL")
 
-# Проверяем, что переменные загружены корректно
 if not all([TELEGRAM_BOT_TOKEN, API_KEY, MODEL]):
     raise ValueError("Не все ключи были загружены из .env файла")
 
-# Создаем бота и диспетчер
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
 dp = Dispatcher()
 
-is_active = True  # Флаг, определяющий, активен ли бот
+is_active = True
 
 def chat_stream(prompt):
     headers = {
@@ -63,21 +59,21 @@ def chat_stream(prompt):
     except requests.exceptions.Timeout:
         return "❌ Запрос занял слишком много времени. Попробуйте позже."
 
-# Команда /stop для остановки бота
+
 @dp.message(Command("stop"))
 async def stop_bot(message: Message):
     global is_active
     is_active = False
     await message.answer("❌ Бот остановлен. Для запуска используйте команду /start.")
 
-# Команда /start для запуска бота
+
 @dp.message(Command("start"))
 async def start_bot(message: Message):
     global is_active
     is_active = True
     await message.answer("✅ Бот снова активен и готов работать.")
 
-# Обработчик обычных сообщений
+
 @dp.message()
 async def handle_message(message: Message):
     if not is_active:
@@ -101,9 +97,9 @@ async def handle_message(message: Message):
     else:
         await message.answer("❌ Извините, попробуйте снова.")
 
-# Запуск бота
+
 async def main():
-    # Устанавливаем команды, которые будут отображаться при вводе "/"
+
     await bot.set_my_commands([
         types.BotCommand(command="start", description="Запустить бота"),
         types.BotCommand(command="stop", description="Остановить бота"),
